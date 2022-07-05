@@ -5,7 +5,7 @@ import { xboxDescription, airpodsDescription, airtagDescription } from './items/
 import AttributeSet, { AttributeType } from "./model/attribute-set";
 import Attribute from "./model/attribute";
 
-const shoeSizes = new AttributeSet('Size')
+const shoeSizes = new AttributeSet('Number')
     .addItemList([
         new Attribute('40'),
         new Attribute('41'),
