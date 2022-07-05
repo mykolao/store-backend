@@ -11,6 +11,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "engines": {
+    "node": "^15.5.0"
+  },
   "dependencies": {
     "apollo-server": "^2.23.0",
     "graphql": "^15.5.0",
