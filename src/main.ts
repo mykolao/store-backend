@@ -8,7 +8,7 @@ const server = new ApolloServer({
     resolvers: resolvers,
     introspection: true,
     playground: true,
-    cors: false,
+    cors: {origin: 'https://mykola-oleskiv-store.vercel.app'},
 });
 
 server.listen({port: process.env.PORT || 4000}).then(({ url }) => {
